@@ -1,0 +1,25 @@
+console.log('This is a popup!');
+
+function removeShit() {
+  const divToRemove = document.getElementById("age-verification-container");
+  if (divToRemove) {
+    divToRemove.remove();
+  }
+
+  const divToRemove1 = document.getElementById("age-verification-wrapper");
+  if (divToRemove1) {
+    divToRemove1.remove();
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const myButton = document.getElementById('myButton');
+  myButton.addEventListener('click', function() {
+    chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+      chrome.scripting.executeScript({
+        target: { tabId: tabs[0].id },
+        function: removeShit // Function to be executed in the active tab
+      });
+    });
+  });
+});
