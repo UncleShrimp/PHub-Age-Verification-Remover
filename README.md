@@ -5,7 +5,7 @@
 4. Включить режим разработчика, если он не включен.
 5. Нажать "Загрузить распакованное расширение" и выбрать папку в которую вы сохранили исходник.
 6. Закепить расширение.
-7. В окне расширения нажать 'Hide Verification'.
+7. Если после захода на сайт окно регистрации не пропало, В окне расширения нажать 'Hide Verification'.
 8. Идти точить шпагу.
 
 
@@ -15,6 +15,6 @@ Steps to use the Extension:
 3. Go to Extensions in Chrome.
 4. Enable Dev mode if it's not enabled.
 5. Click load unpacked extension and select the unzipped folder with SAUCE.
-6. On the site Press 'Hide Verification' in the extension.
+6. If age verification did not dissapear, press 'Hide Verification' in the extension.
 7. Pin the extension.
 8. Go stroke.
