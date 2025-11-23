@@ -10,8 +10,18 @@ function removeShit() {
   if (divToRemove1) {
     divToRemove1.remove();
   }
-}
 
+
+  const divToRemove3 = document.getElementById("modalWrapMTubes");
+  if (divToRemove3) {
+    divToRemove3.remove();
+  }
+
+  const divToRemove4 = document.getElementById("ageDisclaimerMainBG");
+  if (divToRemove4) {
+    divToRemove4.remove();
+  }
+}
 document.addEventListener('DOMContentLoaded', function() {
   const myButton = document.getElementById('myButton');
   myButton.addEventListener('click', function() {
