@@ -1,7 +1,7 @@
 {
   "name": "PHub's Age Verification Remover",
   "description": "Removes age verification",
-  "version": "1.3.1",
+  "version": "1.3.4",
   "manifest_version": 3,
   "action": {
     "default_popup": "hello.html",
